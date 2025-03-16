@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*configuraçao do header*/
+
+h1 {
+    font-size: 40px;
+}
+
+header,
+h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+header {
+    background-color: rgba(82, 11, 148, 0.76);
+    padding: 16px;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: rgba(62, 8, 112, 0.76);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 35px;
+}
+
+section p {
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.fachada_da_loja {
+    max-width: 400px;
+    margin-right: 32px;
+}
+
+body {
+    font-family: "Big Shoulders", sans-serif;
+}
+
+/* config do container*/
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*config das logos*/
+
+.marcas_logos img {
+    height: 150px;
+}
+
+.marcas_logos li {
+    display: inline;
+}
+
+.social-media img {
+    height: 50px;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-media li a {
+    text-decoration: none;
+
+}
+
+.social-media li img {
+    transition: 0.3s;
+}
+
+.social-media li img:hover {
+    transform: scale(1.4);
+}
+
+/*config forms*/
+
+form textarea,
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+form textarea {
+    resize: none;
+    height: 130px;
+}
+
+form button {
+    background-color: rgba(82, 11, 148, 0.76);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(91, 56, 124, 0.76);
+    transform: scale(1.1);
+}
+
+form textarea:hover,
+form input:hover {
+    transform: scale(1.1);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: blueviolet;
+}
+
+
+/*config contact*/
+
+#contact .container {
+    display: block;
+}
+
+.methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*config footer*/
+
+footer {
+    background-color: rgba(62, 8, 112, 0.76);
+    color: white;
+    padding: 16px 0;
+}
+
+footer p {
+    margin-left: 13%;
+}
